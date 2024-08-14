@@ -1,0 +1,431 @@
+body {
+    background-color: rgb(204, 181, 152);
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#container0 .navbar {
+    justify-content: right;
+
+}
+
+
+#container0 .navbar li {
+
+    display: inline-block; 
+    font-size: 40px;
+
+    margin: 10px;
+    color: rgb(250, 2, 2);
+}
+
+
+#container0 .navbar a {
+
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 20px;
+    color: rgb(250, 2, 2);
+
+}
+#container0 .row {
+    padding: 0;
+}
+
+#container0 a:hover{
+color: rgb(3, 12, 12);
+text-decoration: none;
+
+}
+
+
+
+#container0 .navbar .btn {
+
+
+font-size: 40px;
+border-radius: 1px;
+
+
+}
+
+#container0 input {
+
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0)
+    
+
+}
+
+#container0 .content  {
+    position: absolute;
+    display: none;
+    background-color: aquamarine;
+ 
+}
+
+
+
+#container0 .dropdown:hover .content{
+
+    display: block;
+}
+
+
+
+#container0 .dropdown {
+
+    display: inline-block;
+}
+
+
+
+#container0 .content a {
+    display: block;
+}
+
+
+.list ul {
+
+    padding-top: 20px;
+    font-size: 50px;
+    width: 500px;
+    height: 100px;
+
+}
+
+ .list {
+
+margin-top: 200px ;    
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+#container01 .btn {
+
+margin-top: 20px;
+width: 150px;
+height: 50px;
+}
+
+
+
+body{
+    background-color: bisque;
+
+}
+
+#container01 h1 {
+    margin-top: 300px;
+    font-family: sans-serif Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    padding: 25px;
+}
+
+#container01 h3 {
+
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#container01 p {
+
+    font-size: 30px;
+    margin: 10px;
+}
+
+.web {
+
+padding-left: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.app {
+
+    padding-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+ 
+   .gra {
+
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .dig {
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 500px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+
+
+
+#container01 {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    height: 1500px;
+    max-width: 8000px;
+
+
+
+    border-color: rgb(255, 255, 255);
+
+}
+
+.card {
+
+padding-bottom: 20px;
+display: flex;
+margin: 50px;
+border-color: red;
+background-color: blueviolet;
+height: 1050px;
+width: 700px;
+padding: 30px;
+
+
+
+}
+
+
+
+.card:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#container01 .btn:hover {
+    background-color: blueviolet;
+}
+
+
+
+
+/*-----------------------------------------------------------------Form-------------------------------------------*/
+
+#container02 .btn {
+
+
+    border: none;
+
+    font-size: 36px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.headline {
+
+    margin-top: 100px;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+
+    margin-top: 800px;
+
+}
+
+.infos {
+
+    font-size: 30px;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.form-control {
+    font-size: 30px;
+}
+
+
+.form-group:hover {
+background-color: rgb(27, 105, 105);
+}
+
+.form-group {
+
+    width: 1800px;
+    height: 1500px;
+    background-color: rgb(245, 148, 148);
+    padding-bottom: 60px;
+    align-content: center;
+    border-radius: 50px;
+}
+
+#container02 {
+
+    margin-top: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+footer {
+
+    margin-top: 200px;
+
+    height: 800px;
+
+    background-color: black;
+    padding-top: 100px;
+}
+
+
+
+.footer h3 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+#container04 p {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: solid white;
+
+
+    font-size: 30px;
+    border: white;
+}
+
+
+
+#container04 .my-list {
+ 
+    
+    color: aliceblue;
+    text-align: center;
+    align-self: center;
+    font-size: 30px;
+    list-style: none;
+    
+
+}
+
+/********************************************************************************************pagination************************************************************************************/
+.pagination {
+    display: flex; 
+    justify-content: center;
+    font-size: 60px;
+
+}
+
+
+
+.pagination a {
+
+    margin: 20px;
+    color: aliceblue;
+    padding-top:180px ;
+    margin-top: 180px;
+  
+
+}
+a:hover { 
+
+    color: blueviolet;
+}
+
+
+/*******************************************************************************************Table************************************************************************************/
+
+#container5 .table{
+
+        margin-bottom: 500px;   
+        margin-top: 500px;
+
+        font-size: 50px;
+
+        text-align: center;
+
+
+}
+
+
+/**********************************************************************************Button*********************************************************************************************/
+
+#container06 .btn {
+
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 20px;
+
+
+}
+
+
+#container06 .button {
+
+
+    margin-top: 30px;
+  
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 160px;
+   
+}
